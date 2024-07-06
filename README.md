@@ -88,6 +88,8 @@ Accessing the Application:
 2. View your recommended roadmap based on quiz performance.
 3. Follow the steps in the roadmap to enhance your skills.
 
+The data folder contains the sample questions that can be added to the MongoDB database.
+
 Enjoy using Ascend!
 ## License
 
