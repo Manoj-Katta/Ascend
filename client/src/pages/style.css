@@ -1,0 +1,22 @@
+#ide {
+    position: relative;
+    top: 0;
+    left: 50vw;
+    right: 0; /* Add your desired background color */
+    z-index: 1000;
+    width:50vw;
+}
+
+.change_demo {
+    position: relative;
+    left: 50%;
+    width: 50vw;
+    z-index: 1; /* Set a lower z-index */
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    gap:0px;
+}
+

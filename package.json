@@ -1,0 +1,33 @@
+{
+  "name": "Trumio-Ascend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server/server.js",
+  "scripts": {
+    "start": "node server/server.js",
+    "dev": "concurrently \"cd server && npm run start\" \"cd client && npm run dev\"",
+    "install": "cd server && npm i && cd ../client && npm i",
+    "build": "cd client && npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Trumio-Ascend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Trumio-Ascend/issues"
+  },
+  "homepage": "https://github.com/Trumio-Ascend#readme",
+  "devDependencies": {
+    "concurrently": "^8.0.1"
+  },
+  "dependencies": {
+    "@tensorflow/tfjs": "^4.20.0",
+    "codemirror": "^6.0.1",
+    "express": "^4.18.2",
+    "path": "^0.12.7",
+    "react-helmet": "^6.1.0",
+    "react-scripts": "^5.0.1"
+  }
+}

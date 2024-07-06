@@ -1,0 +1,63 @@
+/* Update the CSS in your Article.css file */
+.buttons-container {
+  display: flex;
+
+  margin-top: 20px; /* Add margin at the top if needed */
+}
+
+.button-link {
+  text-decoration: none;
+}
+
+/* Adjust the margin between buttons based on your preference */
+.button-link:first-child {
+  margin-right: 10px;
+}
+
+.button-link:last-child {
+  margin-left: 10px;
+}
+
+
+.articles-container {
+  text-align: center;
+}
+
+.main-heading {
+  font-size: 24px; /* Change the font size to your desired value */
+  font-weight: bold;
+  color: #333; /* Change the color to your desired color */
+}
+
+.article-list {
+  list-style: none;
+  padding: 0;
+  text-align: left; /* Left-align the inner content */
+}
+
+.article-item {
+  margin: 10px 0;
+  transition: color 0.3s; /* Add transition for smooth color change on hover */
+}
+
+.article-item:hover {
+  color: #ff5733; /* Change the color to your desired hover color */
+}
+
+.article-title {
+  margin: 5px 0;
+}
+
+/* Add the following CSS to style the anchor tag */
+.article-title a {
+  text-decoration: none;
+  color: #007bff; /* Change the color to your desired link color */
+}
+
+.article-title a:hover {
+  color: #004080; /* Change the color to your desired link hover color */
+}
+
+
+
+
